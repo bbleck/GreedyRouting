@@ -20,6 +20,7 @@ public class Routing {
     Site[] result = getHops(hops);
     System.out.println("\n\n\n");
     printResult(result);
+    //array to list:  List<Site> sitesAsList = Arrays.asList(result);
   }
 
   private static void printResult(Site[] result) {
